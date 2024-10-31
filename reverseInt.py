@@ -21,5 +21,8 @@ class Solution:
         return x*-1 if neg else x
 
 
-s = Solution()
+s1 = Solution()
+
+print(s1.reverse(1230))
+print(s1.reverse(-83493))
 
