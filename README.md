@@ -60,7 +60,7 @@ Given a string s, return the longest palindromic substring in s.
 2) **Solution:**
 Use *Manacher's algorithm* which is the best algorithm for this kind of problems with complexity O(n).
 
-## 6. Longest Palindrome for String:
+## 6. Longest Palindrome for Integer:
 1) **Problem:**
 Given an integer x, return true if x is a palindrome and false otherwise,
 Without converting the number to string.
@@ -97,3 +97,32 @@ Using List index to get the tenth or hundredth, ...
 and after using map to choose between corresponding map number and stocked the result in string
 list.
 Time Complexity is O(n).
+
+## 9. Longest Common Prefix:
+1) **Problem:**
+Write a function to find the longest common prefix string amongst an array of strings.
+If there is no common prefix, return an empty string "".
+2) **Solution:**
+For this solution i'm using vertical scanning, checks each character position across all strings from
+the first character to the last. Stops as soon as characters mismatch or string ends.
+Time complexity O(s) where s is the sum of all characters in the strings.
+
+## 10. Valid Parentheses:
+1) **Problem:**
+Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+An input string is valid if:
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+2) **Solution:**
+Im using stack here for data structure LIFO(Last In First Out) and HashMap data structure.
+Time Complexity O(n), n is the number of characters.
+
+## 10. Valid Parentheses:
+1) **Problem:**
+Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+`Input: n = 3
+Output: ["((()))","(()())","(())()","()(())","()()()"]`
+2) **Solution:**
+For this solution im using *BackTracking* recursive algorithm which is go throw all path to give us all posibility.
+Time Complexity = O(n).
