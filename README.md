@@ -118,7 +118,7 @@ Every close bracket has a corresponding open bracket of the same type.
 Im using stack here for data structure LIFO(Last In First Out) and HashMap data structure.
 Time Complexity O(n), n is the number of characters.
 
-## 10. Valid Parentheses:
+## 11. Generate Parentheses:
 1) **Problem:**
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
 `Input: n = 3
